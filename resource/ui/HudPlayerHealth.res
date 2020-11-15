@@ -550,4 +550,4 @@
 		"image"			"../vgui/slowed"
 		"fgcolor"		"TanDark"
 	}
-}
+

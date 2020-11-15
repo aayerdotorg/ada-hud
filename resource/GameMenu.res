@@ -86,14 +86,14 @@
 	"DisconnectButton"
     {
         "label" 		"Reload Hud"
-        "command"   	"hud_reloadscheme"
+        "command"   	"engine hud_reloadscheme"
 		"subimage"		""
 		"OnlyInGame"	"1"
     }
 	"FixSound"
     {
         "label" 		"Fix Sound"
-        "command"   	"snd_reset"
+        "command"   	"engine snd_reset"
 		"subimage"		""
 		"OnlyInGame"	"1"
     }
