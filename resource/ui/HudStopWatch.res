@@ -49,7 +49,7 @@
 		"zpos"				"1"
 		"wide"				"45"
 		"tall"				"24"
-		"visible"			"1"
+		"visible"			"0"
 		"enabled"			"1"
 
 		"TimePanelValue"
@@ -72,7 +72,7 @@
 		{
 			"ControlName"	"CTFImagePanel"
 			"fieldName"		"TimePanelBG2"
-			"visible"		"1"
+			"visible"		"0"
 		}
 	}
 
@@ -126,7 +126,7 @@
 		"tall"			"24"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"wrap"			"1"
 	}
