@@ -24,11 +24,6 @@
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 
-			if_mini
-			{
-				"xpos"		"cs-0.5-228"
-			}
-
 			"ParticleEffects"
 			{
 				"0"
@@ -123,11 +118,6 @@
 
 			"paintbackground"	"0"
 
-			if_mini
-			{
-				"xpos"		"cs-0.5-228"
-			}
-
 			"ParticleEffects"
 			{
 				"0"
@@ -188,10 +178,11 @@
 		"xpos"			"rs1"
 		"ypos"			"20"
 		"zpos"			"-1"
-		"wide"			"260"
+		"wide"			"190"
 		"tall"			"f40"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
+		"border"		"MainMenuBGBorder"
 		"proportionaltoparent"	"1"
 
 		if_mini
@@ -207,14 +198,14 @@
 			"ControlName"	"Label"
 			"fieldName"		"NameLabel"
 			"xpos"			"65"
-			"ypos"			"5"
+			"ypos"			"3"
 			"wide"			"f0"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
 			"font"			"HudFontSmallishBold"
-			"fgcolor_override"	"TanLight"
+			"fgcolor_override"	"customWhite"
 			"textAlignment"	"north-west"
 			"labelText"		"%name%"
 			"proportionaltoparent"	"1"
@@ -225,19 +216,19 @@
 			}
 		}
 
-		"DescLine1"
+    "DescLine1"
 		{
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine1"
 			"xpos"			"65"
-			"ypos"			"19"
+			"ypos"			"16"
 			"wide"			"195"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
 			"font"			"HudFontSmallestBold"
-			"fgcolor_override"	"TanLight"
+			"fgcolor_override"	"customWhite"
 			"textAlignment"	"north-west"
 			"labelText"		"%desc1%"
 			"proportionaltoparent"	"1"
@@ -268,7 +259,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"font"			"HudFontSmallestBold"
-			"fgcolor_override"	"TanLight"
+			"fgcolor_override"	"customWhite"
 			"textAlignment"	"north-west"
 			"labelText"		"%desc2%"
 			"proportionaltoparent"	"1"
@@ -334,7 +325,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"ItemFontAttribSmall"
-					"fgcolor_override"	"TanLight"
+					"fgcolor_override"	"customWhite"
 					"textAlignment"	"south-west"
 					"labelText"		"%current_xp%"
 					"proportionaltoparent"	"1"
@@ -352,7 +343,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"ItemFontAttribSmall"
-					"fgcolor_override"	"TanLight"
+					"fgcolor_override"	"customWhite"
 					"textAlignment"	"south-east"
 					"labelText"		"%next_level_xp%"
 					"proportionaltoparent"	"1"
@@ -365,7 +356,7 @@
 					"xpos"			"0"
 					"ypos"			"rs1-10"
 					"wide"			"p1"
-					"tall"			"7"
+					"tall"			"4"
 					"proportionaltoparent"	"1"
 
 					"ProgressBar"

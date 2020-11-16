@@ -19,6 +19,17 @@ Scheme
 	//////////////////////// COLORS ///////////////////////////
 	Colors
 	{	
+		/// boredHUD custom colors ///
+		"customRed"			"232 39 49 255" 			// team indicator color
+		"customYellow"			"255 206 115 255"		// low hp indicator
+		"customBlue"			"41 104 227 255"			// team indicator color
+		"customGreen" 		"178 82 22 120"			// buffed hp indicator
+		"customGrayPanel"	"15 15 15 165"			//	background color for panels
+		"customWhite"			"255 255 255 255"		// font color
+
+		"uiBG"				"28 28 28 255"				// background color for char info
+		"uiGray"			"130 130 130 255"			// a gray color
+		
 		"SuperBlack"		"0 0 0 255" // pvhud
 		"TransparentBlack"	"0 0 0 64" // pvhud - was "0 0 0 196"
 	
