@@ -30,6 +30,8 @@ Scheme
 		"uiBG"				"28 28 28 255"				// background color for char info
 		"uiGray"			"130 130 130 255"			// a gray color
 		
+		"UberPercentage"	"0 255 221 255"  			//blue uber color
+		
 		"SuperBlack"		"0 0 0 255" // pvhud
 		"TransparentBlack"	"0 0 0 64" // pvhud - was "0 0 0 196"
 	
