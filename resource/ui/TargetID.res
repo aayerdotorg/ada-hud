@@ -75,7 +75,7 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"TargetDataLabel"
-		"font"			"DefaultVerySmallOutline"
+		"font"			"DefaultOutline"
 		"xpos"			"30"
 		"ypos"			"0"
 		"zpos"			"1"

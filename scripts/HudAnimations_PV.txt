@@ -82,8 +82,8 @@ event HudLowAmmoPulseStop
 
 event HudMedicCharged
 {
-	Animate	ChargeLabel 					FgColor		"TanLight"				Linear 	0.0 0.1
-	Animate	ChargeLabel 					FgColor		"TanDarker"				Linear 	0.3 0.4
+	Animate	ChargeLabel 					FgColor		"ChargedUpLight"		Linear 	0.0 0.1
+	Animate	ChargeLabel 					FgColor		"ChargedUpDark"			Linear 	0.3 0.4
 	Animate	ChargeLabel2 					FgColor		"255 0 255 255"			Linear 	0.0 0.0001
 
 	Animate	ChargeMeter 					FgColor		"255 0 255 255"			Linear 	0.0 0.1
@@ -102,8 +102,8 @@ event HudMedicChargedStop
 	StopEvent HudMedicCharged 				0.0
 	StopEvent HudMedicChargedLoop 			0.0
 
-	Animate	ChargeLabel 					FgColor		"TanLight"				Linear 	0.0 0.0001
-	Animate	ChargeLabel2 					FgColor		"TanLight"				Linear 	0.0 0.0001
+	Animate	ChargeLabel 					FgColor		"UberPercentage"				Linear 	0.0 0.0001
+	Animate	ChargeLabel2 					FgColor		"UberPercentage"				Linear 	0.0 0.0001
 
 	Animate	ChargeMeter 					FgColor		"TanLight"				Linear 	0.0 0.0001
 }

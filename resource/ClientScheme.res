@@ -30,7 +30,9 @@ Scheme
 		"uiBG"				"28 28 28 255"				// background color for char info
 		"uiGray"			"130 130 130 255"			// a gray color
 		
-		"UberPercentage"	"0 255 221 255"  			//blue uber color
+		"UberPercentage"			"0 255 255 255" 			// uber color
+		"ChargedUpLight"					"255 100 255 255" 			// charge color
+		"ChargedUpDark"					"128 47 128 255" 			// charge color
 		
 		"SuperBlack"		"0 0 0 255" // pvhud
 		"TransparentBlack"	"0 0 0 64" // pvhud - was "0 0 0 196"
@@ -488,7 +490,19 @@ Scheme
 		///////////////////////////////////////////////
 		//////////////////PVHUD FONTS//////////////////
 		///////////////////////////////////////////////
-		
+		"UberTracker"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"11"
+				"weight"	"500"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"outline"	"0"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
 		"DefaultShadow"
 		{
 			"1"
